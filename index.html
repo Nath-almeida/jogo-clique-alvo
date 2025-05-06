@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Clique no Alvo</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Jogo do Clique no Alvo</h1>
+        
+        <!-- Área de informações do jogo -->
+        <div class="game-info">
+            <p>Pontuação: <span id="score">0</span></p>
+            <p>Tempo restante: <span id="time">30</span>s</p>
+        </div>
+        
+        <!-- Área onde o alvo aparecerá -->
+        <div id="game-area">
+            <div id="target" class="target"></div>
+        </div>
+        
+        <!-- Controles do jogo -->
+        <div class="controls">
+            <button id="start-btn">Iniciar Jogo</button>
+            <button id="reset-btn">Reiniciar</button>
+        </div>
+    </div>
+
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
